@@ -8,7 +8,7 @@ system:
 2. **Drafts a reply** grounded in how sprintcare has historically resolved similar issues
 3. **Decides** whether to auto-handle or escalate to a human — with a stated reason
 
-Full methodology, results, and honest limitations are in [`report/REPORT.md`](report/REPORT.md).
+Full methodology, results, and  limitations are in [`report/REPORT.md`](report/REPORT.md).
 
 ---
 
@@ -98,7 +98,8 @@ support-agent/
 ## Known Limitations
 
 See `report/REPORT.md` Section 4 ("What's Misleading About My Headline Number") for the complete,
-honest list. In short: the golden set was entirely hand-labeled, with some AI assistance, but it was not
+honest list. In short: the golden set was entirely hand-labeled, with some AI assistance, but it was
 independently double-annotated by a second human; "historically resolved" is a heuristic, not a
 verified outcome; escalation ground truth reflects one person's judgment, not sprintcare's actual
-policy; and the local 8B model is a meaningfully weaker floor than a frontier model would provide.
+policy.
+The system is trained and evaluated on a limited dataset focused on @sprintcare, so performance may vary across other brands and support domains.
